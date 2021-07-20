@@ -1,4 +1,4 @@
-package Runner;
+package Runners;
 
 import TestBase.BasePage;
 import cucumber.api.CucumberOptions;
@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"json:target/cucumber-report.json" },
-        features = {"src/test/resources/features"},
+        features = {"src/test/resources/feature"},
         tags = {"@Test"},
         glue={"StepDef"}
 
@@ -34,3 +34,4 @@ public class JUnitTest extends BasePage {
     }
 
 }
+

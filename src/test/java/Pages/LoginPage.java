@@ -39,3 +39,4 @@ public class LoginPage {
         webDriver.getTitle().contains("Swag Labs");
     }
 }
+

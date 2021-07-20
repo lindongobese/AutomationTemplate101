@@ -15,6 +15,7 @@ public class Hooks extends BasePage {
     @Before
     public void setup() {
         createDriver(System.getProperty("WebDriver"));
+
     }
 
     @After

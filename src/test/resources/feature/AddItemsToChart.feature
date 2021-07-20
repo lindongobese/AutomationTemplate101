@@ -11,3 +11,4 @@ Feature: Add items to cart
         Then i select a tshirt and backpack from catalogue
         And i proceed to cart
         Then the two items must be listed on my cart
+

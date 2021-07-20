@@ -17,7 +17,7 @@ public class BasePage {
 
     public void createDriver(String driver){
         if(driver.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.drivers","src/test/resources/drivers/chromedriver.exe");
             ChromeOptions options = new ChromeOptions();
 //            options.setExperimentalOption("useAuthenticationExtention",false);
             webDriver = new ChromeDriver(options);
@@ -27,3 +27,4 @@ public class BasePage {
     }
 
 }
+

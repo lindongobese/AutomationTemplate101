@@ -39,6 +39,7 @@ public class SwagLabsCart_Steps {
     }
 
 
+
     @Given("^that i have landed on the Swag Labs home page$")
     public void that_i_have_landed_on_the_Swag_Labs_home_page() throws Throwable {
         cartPage.verifyThatCatalogueIsDisplated();
