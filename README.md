@@ -1,0 +1,2 @@
+# GlobalKineticTemplate
+GlobalKineticTemplate Automation
