@@ -1,0 +1,134 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11114648380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Select 2 items from catalogue and add them to cart",
+        "description": "",
+        "id": "add-items-to-cart;select-2-items-from-catalogue-and-add-them-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1712543943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.exitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6395923398,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i have navigated SwagLabs",
+            "match": {
+              "location": "SwagLabsCart_Steps.that_i_have_navigated_SwagLabs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5273630282,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter login details and click the login button",
+            "match": {
+              "location": "SwagLabsCart_Steps.i_enter_login_details_and_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7399960,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i must be redirected to home page",
+            "match": {
+              "location": "SwagLabsCart_Steps.i_must_be_redirected_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63454043,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "that i have landed on the Swag Labs home page",
+            "match": {
+              "location": "SwagLabsCart_Steps.that_i_have_landed_on_the_Swag_Labs_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102212266,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i select a tshirt and backpack from catalogue",
+            "match": {
+              "location": "SwagLabsCart_Steps.i_select_a_tshirt_and_backpack_from_catalogue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2082236269,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i proceed to cart",
+            "match": {
+              "location": "SwagLabsCart_Steps.i_proceed_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69631894,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the two items must be listed on my cart",
+            "match": {
+              "location": "SwagLabsCart_Steps.the_two_items_must_be_listed_on_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add items to cart",
+    "description": "",
+    "id": "add-items-to-cart",
+    "keyword": "Feature",
+    "uri": "AddItemsToChart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
